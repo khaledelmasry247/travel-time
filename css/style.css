@@ -1,0 +1,805 @@
+
+body{
+    overflow-x: hidden;
+}
+.contain{
+    width: 100% !important;
+}
+.header_section{
+
+    height: 100vh;
+    width: 100%;
+
+    background-image: url('../images/header-img.png');
+    background-position: center center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.summary{
+ padding:40px;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    color:white;
+    background-color: rgba(0, 0, 0, .2);
+    letter-spacing: 1px;
+  
+}
+.summary hr{
+    height: 5px;
+    width: 75%;
+    background-color: rgb(98, 206, 98);
+}
+.About_us{
+
+    height: 75vh;
+
+}
+.Itineraries ul {
+
+ list-style:none ;
+
+}
+.Itineraries ul  i{
+
+    position: absolute;
+    left: -20px;
+    top:15px;
+    color:green
+
+}
+ .Itineraries ul li
+{
+position: relative;
+padding: 10px;
+font-weight: 500;
+
+}
+
+.booking{
+    height:60vh;
+    position: relative;
+    background-image: url('../images/coffe.png');
+    background-attachment: fixed;
+ background-position: center center;
+}
+.booking_overlay{
+
+    position: absolute;
+    top:0px;
+    right: 0px;
+    left:0px;
+    bottom: 0px;
+    background-color: rgba(30, 48, 73, 0.8);
+}
+
+.booking_overlay label{
+    padding: 10px;
+    color:white;
+}
+.booking p ,h2{
+    color:white;
+}
+.main-color{
+    color:#a7df12;
+}
+
+.items{
+background-color:#1e3049;
+padding: 5px;
+border-radius: 50%;
+width: 5rem !important;
+height: 5rem !important;
+display: flex;
+justify-content: center;
+align-items:center;
+margin-top:15px;
+margin-left:15px;
+
+
+}
+.items:hover{
+
+    background-color:#a7df12 ;
+    cursor: pointer;
+}
+.items img{
+    width: 50%;
+
+}
+.room_type{
+    height: 75vh;;
+background-color: teal;
+background-image: url("../images/background.png");
+background-attachment: fixed;
+}
+.room_overly
+{
+ width: 100%;
+ height: 100%;
+    background-color: rgba(30, 48, 73, 0.8);
+}
+.room_img{
+ width: 25%;
+ padding: 3px;
+ 
+
+}
+.img-cover{
+position: absolute;
+height: 100%;
+width: 100%;
+top:0px;
+right: 0px;
+bottom: 0px;
+z-index: 22;
+background-color: blue;
+}
+
+
+.list ul{
+list-style: none;
+margin-top:50px;
+}
+
+
+.list ul li{
+    background-color: white;
+    width: 80%;
+    margin-top: 10px;
+              display: flex;
+              justify-content: flex-end;
+     text-align: right;
+    cursor: pointer;
+    padding-right: 20px;
+
+}
+.list ul li:hover{
+
+    background-color: yellowgreen;
+}
+.list ul li a{
+
+font-weight: bold;
+}
+
+
+.romme_type h1{
+    color:#a7df12;
+}
+
+.romme_type p{
+    color:white;
+}
+.list{
+    /* background-color: tomato !important; */
+    display:flex;
+    justify-content: center !important;
+    align-items: flex-start;
+}
+.app-section{
+    height: 75vh;
+}
+.app-section{
+    position: relative;;
+
+background-image: url('../images/background\ \(1\).png');
+background-attachment: fixed;
+
+}
+.app-overlay{
+    background: linear-gradient(317deg, rgba(34,56,195,1) 0%, rgba(112,195,135,1) 33%, rgba(93,151,155,1) 88%);
+    opacity: .9;
+height: 100%;
+width: 100%;
+position: absolute;
+top:0px;
+right: 0px;
+left: 0px;
+bottom: 0px;
+z-index: 0;
+}
+.left-app img{
+ position: absolute;
+ top:-50px;
+ z-index: 3;
+ /* width: 50%; */
+left: -250px;
+}
+
+.Suppliers h1,h2,h3,p{
+    text-align: center;
+}
+
+.Suppliers h3{
+
+    margin: 0px;
+    padding: 10px;
+
+}
+.card1 h3{
+    background-color: #00B2B2;
+    color: white;
+}
+.card2 h3{
+    background-color: #2693FF;
+    color: white;
+
+}
+
+.card3 h3{
+    background-color: #FF9326;
+    color: white;
+
+}
+
+.contact-form input{
+margin: 5px;}
+
+.contact-form{
+    background-color: #1E3049;
+}
+
+.footer{
+    background-color: #404F64;
+}
+.footer ul{
+    list-style: none;
+    
+}
+
+.footer ul li a{
+    padding: 15px;
+    color: white !important;
+}
+.footer ul li {
+    padding: 10px;
+}
+.footer ul h4{
+    color:white;
+}
+
+.navbar li{
+    padding-right:20px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.nav-item a {
+    font-weight: bold;
+    padding: 15px;
+}
+
+.navbar li:hover a{
+    background-color: #a7df12;
+    color:white !important;
+}
+.navbar li::after{
+
+
+    content:'';
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    bottom:0px;
+    margin: 5px;
+    transition:  width .5s ease-out;
+
+}
+.navbar li:hover::after{
+background-color: rgb(202, 63, 63);
+width: 60px;
+
+
+}
+#main-navbar{
+    z-index: 9999999;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    background-color: #FFFFFF;
+}
+
+@media all and (max-width:600px)
+{
+
+
+h3{
+    
+   font-size:20px !important;
+}
+h1{
+    font-size:30px ;
+}
+.col-md-6{
+    text-align: center;
+    margin-top: 20px;
+}
+.col-md{
+
+width: 100%;
+
+
+
+  text-align: right;
+}
+  
+.summary{
+
+width:100%;
+height: 60%;
+
+}
+
+.booking{
+
+height: 110vh;
+
+}
+.booking form{
+    width: 100% !important;
+    margin-top:200px;
+    margin-top:60px !important;
+/* background-color: salmon; */
+}
+.feature .wow{
+    display: flex;
+    justify-content: space-between;
+margin: 5px !important;
+}
+
+.feature .wow h5{
+
+margin-top: 25px !important;
+}
+
+.room_type{
+height: 300vh !important;}
+
+
+.room_type .room-item{
+margin:5px;
+
+
+}
+.romme_type h1,p{
+    text-align:center !important;
+}
+#App{
+
+    height: 100vh !important;
+}
+#footer iframe{
+
+
+width: 100%;
+
+
+}
+.contact-form{
+
+width: 100% !important;
+
+}
+
+.phone{
+width: 100% !important;
+margin-bottom: 20px;
+}
+.name{
+    margin-bottom: 20px !important;
+}
+textarea{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 20px !important;
+}
+.contact-form button{
+    width: 100%;
+}
+.foort ul{
+    text-align: center;
+}
+}
+
+/* ================================ */
+@media all and (min-width:601px) and (max-width:768px)
+{
+
+
+
+
+        h3{
+            
+            font-size:25px !important;
+        }
+        h1{
+            font-size:35px ;
+        }
+        .col-md-6{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .col-md{
+        
+        width: 100%;
+        
+        
+        
+          text-align: right;
+        }
+          
+        .summary{
+        
+        width:70%;
+        height: 50%;
+        margin:auto;
+        }
+        
+        .booking{
+        
+        height: 80vh;
+        
+        }
+        .booking form{
+            width: 100% !important;
+            margin-top:200px;
+            margin-top:60px !important;
+        /* background-color: salmon; */
+        }
+
+
+        .booking-title{
+         width: 100% !important;
+        }
+/* .feature .items{
+            justify-content: center;
+        margin: 5px !important;
+        margin:5px !important;
+        } */
+         
+        .feature .wow h5{
+         font-size: 15px !important;
+        margin-right: 15px !important;
+    margin-top: 46px !important;
+   text-align: left;
+}
+
+.feature .wow{
+    display: flex;
+    justify-content: space-between;
+margin: 5px !important;
+}
+
+.feature items{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+.room_type{
+ height:140vh;
+}
+.contain{
+    width: 100% !important;
+    margin-left: 0px !important;
+}    
+
+.room-summary{
+margin:auto !important;
+margin:auto !important;
+text-align: center;
+padding-top:30px ;
+
+}
+.room-item{
+
+margin:5px;
+    
+}
+.list ul{
+
+    margin: auto !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+
+}
+
+.left-app img{
+
+    left:-100px;
+top:-37px;
+
+}
+
+.phone{
+
+margin: auto;
+width: 100%;
+
+}
+
+.contact-form button{
+width: 100%;
+margin: auto;
+}
+textarea{
+    
+    margin-left:8px !important;
+}
+
+.contact-form form{
+    width: 100% !important;
+}
+
+        }
+    
+
+@media all and (min-width:769px) and (max-width:992px) 
+{
+
+        h3{
+            
+            font-size:25px !important;
+        }
+        h1{
+            font-size:35px ;
+        }
+        .col-md-6{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .col-md{
+        
+        width: 100%;
+        
+        
+        
+          text-align: right;
+        }
+          
+        .summary{
+        
+        width:80%;
+        height: 35%;
+        margin:auto;
+        }
+        
+        .booking{
+        
+        height: 80vh;
+        
+        }
+        .booking form{
+            width: 100% !important;
+            margin-top:200px;
+            margin-top:60px !important;
+        }
+
+
+        .booking-title{
+         width: 100% !important;
+        }
+
+         
+        .feature .wow h5{
+         font-size: 15px !important;
+        margin-right: 15px !important;
+    margin-top: 46px !important;
+   text-align: left;
+}
+
+
+
+.feature items{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+.room_type{
+ height:165vh;
+}
+.contain{
+    width: 100% !important;
+    margin-left: 0px !important;
+}    
+
+.room-summary{
+margin:auto !important;
+margin:auto !important;
+text-align: center;
+padding-top:30px ;
+
+}
+.room-item{
+
+margin:5px;
+    
+}
+.list ul{
+
+    margin: auto !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+
+}
+
+.left-app{
+    /* background-color:red; */
+}
+.left-app img{
+ /* width: 200% !important; */
+    left:-60px;
+top:-27px;
+
+}
+#App{
+    height: 67vh;
+}
+
+.phone{
+
+margin: auto;
+width: 100%;
+
+}
+
+.contact-form button{
+width: 100%;
+margin: auto;
+}
+textarea{
+    
+    margin-left:8px !important;
+}
+
+.contact-form form{
+    width: 100% !important;
+}
+  }
+        
+  @media all and (min-width:992px)and (max-width:1200px)  
+  {
+    
+    iframe{
+
+        width: 490;
+    }  
+
+    .summary{
+        
+        width:70%;
+        height: 45%;
+        margin:auto;
+        }
+        
+        .booking{
+        
+        height: 80vh;
+        
+        }
+        .booking form{
+            width: 100% !important;
+            margin-top:200px;
+            margin-top:60px !important;
+        }
+
+
+        .booking-title{
+         width: 100% !important;
+        }
+
+         
+        .feature .wow h5{
+         font-size: 15px !important;
+        margin-right: 15px !important;
+    margin-top: 46px !important;
+   text-align: left;
+}
+
+
+
+.feature items{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+.room_type{
+ height:65vh;
+}
+.romme_type,.room_overly{
+
+    padding: 0px;
+    margin: 0px;
+}
+.contain{
+    width: 104% !important;
+    margin-left: 0px !important;
+}    
+
+
+.list ul{
+
+    margin: auto !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+
+}
+.app-section{
+    height: 70vh;
+}
+.left-app{
+    /* background-color:red; */
+}
+.left-app img{
+    left:-19px;
+    top: -35px;
+
+/* top:-30px; */
+/* width: 88%; */
+}
+.app-summary{
+ padding:20px;
+
+}
+.phone{
+
+margin: auto;
+width: 100%;
+
+}
+
+.contact-form button{
+width: 100%;
+margin: auto;
+}
+textarea{
+    
+    margin-left:8px !important;
+}
+
+.contact-form form{
+    width: 100% !important;
+}
+
+.contact-form {
+
+background-color: red;
+
+}
+iframe{
+
+ width: 755;
+ }
+
+}
+@media all and (min-width:1200px)
+
+{
+.app-summary{
+
+    padding-top: 24px;
+
+}
+
+.left-app img{
+
+    left:15px;
+top:-67px;
+width: 80%;
+}
+
+.app-section {
+    height: 67.75vh;
+}
+
+
+.list{
+    /* background-color: tomato !important; */
+    display:flex;
+    justify-content: center !important;
+    align-items: flex-start;
+}
+
+
+}
